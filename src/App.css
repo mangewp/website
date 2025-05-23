@@ -2,8 +2,12 @@
 body {
   background: #23272f;
   color: #fff;
+  height: 100vh;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
   font-family: 'MyFont', Arial, sans-serif;
+  
 }
 
 /* Responsive container for Home */

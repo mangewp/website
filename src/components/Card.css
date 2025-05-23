@@ -5,6 +5,28 @@
   font-style: normal;
 }
 
+@media (max-width: 600px) {
+  .cards-container {
+    gap: 16px;
+    padding: 1rem 0.5rem; /* Add horizontal padding for edge spacing */
+  }
+  .custom-card {
+    width: 140px;
+    height: 180px;
+    max-width: 90vw;
+  }
+  .card-image {
+    width: 60px;
+    height: 60px;
+  }
+  .card-bar {
+    padding: 10px 0;
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
 .custom-card {
   display: flex;
   flex-direction: column;
@@ -19,6 +41,7 @@
   transition: transform 0.15s, box-shadow 0.15s;
   cursor: pointer;
   position: relative;
+  max-width: 90vw;
 }
 
 .custom-card:hover {
@@ -27,6 +50,9 @@
 }
 
 .cards-container {
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
