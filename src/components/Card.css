@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url(../assets/CasinoFlatShadow.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  height: 260px;
+  border-radius: 24px;
+  background: #23272f;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-card:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px; /* Adjust the gap as needed */
+}
+
+.card-image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 24px 0 60px 0;
+}
+
+.card-image {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card-bar {
+  width: 100%;
+  background: rgba(20, 20, 30, 0.92);
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.card-text {
+  color: #fff;
+  font-family: 'MyFont', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}

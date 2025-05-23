@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url(../assets/CasinoFlatShadow.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.header-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 1rem;
+}
+
+.header-center {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-tab {
+  font-family: 'MyFont', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.header-tab:hover {
+  background: #444;
+}
+
+.home-icon-link {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.home-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.header-tab-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-underline {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 5px;
+  background: #fff;
+  border-radius: 8px 8px 8px 8px;
+  transition: all 0.3s cubic-bezier(.4,1.5,.5,1);
+  opacity: 1;
+  pointer-events: none;
+}
+
+.header-underline-animated {
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  background: #fff;
+  border-radius: 8px 8px 8px 8px;
+  transition: left 0.35s cubic-bezier(.4,1.5,.5,1), width 0.35s cubic-bezier(.4,1.5,.5,1);
+  z-index: 2;
+  pointer-events: none;
+}
