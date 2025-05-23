@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import blackHoleVideo from '../assets/black-hole.mp4';
+import blackHoleVideo from '../assets/blackhole.mp4';
 import './Background.css';
 
 const Background = () => {
