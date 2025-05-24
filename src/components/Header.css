@@ -89,3 +89,17 @@
   z-index: 2;
   pointer-events: none;
 }
+
+@media (max-width: 600px) {
+  .header {
+    padding: 1rem 0;         /* Increase vertical padding */
+  }
+  .header-tab {
+    font-size: 2rem;         /* Make tab text bigger */
+    padding: 1rem 1.5rem;    /* Increase clickable area */
+  }
+  .home-icon {
+    width: 40px;             /* Make icon bigger */
+    height: 40px;
+  }
+}
