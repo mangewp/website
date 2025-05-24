@@ -1,25 +1,3 @@
-@media (max-width: 600px) {
-  .cards-container {
-    gap: 16px;
-    padding: 1rem 0.5rem; /* Add horizontal padding for edge spacing */
-  }
-  .custom-card {
-    width: 140px;
-    height: 180px;
-    max-width: 90vw;
-  }
-  .card-image {
-    width: 60px;
-    height: 60px;
-  }
-  .card-bar {
-    padding: 10px 0;
-  }
-  .card-text {
-    font-size: 0.9rem;
-  }
-}
-
 .custom-card {
   display: flex;
   flex-direction: column;
@@ -86,4 +64,5 @@
   font-size: 1.1rem;
   font-weight: 500;
   letter-spacing: 0.02em;
+  font-family: inherit;
 }
