@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: 'MyFont', Arial, sans-serif;
+  font-family: "VT323", monospace;
   
 }
 
@@ -21,23 +21,6 @@ body {
   text-align: center;
   padding: 2rem 1rem;
   box-sizing: border-box;
-}
-
-/* Responsive ASCII art */
-.home-container pre {
-  font-family: monospace;
-  font-size: 1.1rem;
-  line-height: 1.1;
-  margin-top: 1.5rem;
-  max-width: 100vw;
-  background: none;
-  border: none;
-  padding: 0 0.5rem;
-  white-space: pre-wrap;   /* Allow wrapping */
-  word-break: break-all;   /* Break long lines */
-  box-sizing: border-box;
-  overflow-x: hidden;      /* Prevent horizontal scroll */
-  overflow-wrap: anywhere;
 }
 
 @media (max-width: 400px) {

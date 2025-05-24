@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import ederIcon from '../assets/eder.png';
 
 function Home() {
   const preRef = useRef(null);
@@ -36,43 +37,18 @@ function Home() {
       }}
     >
       <h1>Welcome to the website of</h1>
-      <div style={{ width: '100%', overflow: 'hidden' }}>
-        <pre
-          ref={preRef}
-          style={{
-            fontFamily: 'monospace',
-            fontSize: '1.2rem',
-            lineHeight: '1.1',
-            marginTop: '1.5rem',
-            display: 'inline-block',
-            transform: `scale(${scale})`,
-            transformOrigin: 'left top',
-            margin: 0,
-          }}
-        >
-{`
-   ▄████████ ████████▄     ▄████████    ▄████████
-  ███    ███ ███   ▀███   ███    ███   ███    ███
-  ███    █▀  ███    ███   ███    █▀    ███    ███
- ▄███▄▄▄     ███    ███  ▄███▄▄▄      ▄███▄▄▄▄██▀
-▀▀███▀▀▀     ███    ███ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀  
-  ███    █▄  ███    ███   ███    █▄  ▀███████████
-  ███    ███ ███   ▄███   ███    ███   ███    ███
-  ██████████ ████████▀    ██████████   ███    ███
-                                       ███    ███
+      <img
+        src={ederIcon}
+        alt="Eder"
+        style={{
+          width: '900px',
+          height: '300px',
+          borderRadius: '10%',
+          margin: '0rem 0 1rem 0',
+          objectFit: 'contain',
 
-
-
-
-
-
-
-
-
-
-`}
-        </pre>
-      </div>
+        }}
+      />
     </div>
   );
 }
