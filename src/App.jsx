@@ -7,10 +7,12 @@ import Home from './pages/Home';
 import About from './pages/About'
 import Projects from './pages/Projects';
 import Links from './pages/Links';
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Background />
       <Header />
       <Routes>
