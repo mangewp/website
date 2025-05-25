@@ -1,16 +1,16 @@
-import Card from '../components/Card';
+import LinksCard from '../components/LinksCard';
 import myImage from '../assets/github.png';
 import myImage2 from '../assets/itch.png';
 
 function Links() {
   return (
     <div className="cards-container" style={{ minHeight: '100vh' }}>
-      <Card
+      <LinksCard
         image={myImage}
         text="Github"
         link="https://github.com/mangewp"
       />
-      <Card
+      <LinksCard
         image={myImage2}
         text="itch.io"
         link="https://moronicmango.itch.io/"

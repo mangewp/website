@@ -1,7 +1,7 @@
 import React from 'react';
-import './Card.css';
+import './LinksCard.css';
 
-function Card({ image, text, link }) {
+function LinksCard({ image, text, link }) {
   return (
     <a href={link} className="custom-card" target="_blank" rel="noopener noreferrer">
       <div className="card-image-container">
@@ -14,4 +14,4 @@ function Card({ image, text, link }) {
   );
 }
 
-export default Card;
+export default LinksCard;
