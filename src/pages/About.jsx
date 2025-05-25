@@ -9,7 +9,7 @@ function About() {
         <p>Hey, I’m Eder! I’m into building cool things with code, game design, and getting overly competitive about card games (Cribbage, anyone?).
         Lately, I’ve been working on a multiplayer Cribbage game in Godot 4.4 — complete with card animations, drag-and-drop, and just the right amount of visual flair. It’s been a fun mix of logic, design, and pixel-level detail.
         Outside of tech, I’m all about balance. I spend a lot of time at the gym, climbing rocks, or just unwinding with a fishing rod in hand. I like solving tough problems, whether it's debugging multiplayer logic or figuring out which lure works best on a quiet lake.
-        Always down to chat, collaborate, or swap Cribbage strategies.</p>
+        </p>
         <p>Here are some beautiful catches.</p>
         <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
           <img src={bluegillImg} alt="Bluegill" style={{ maxWidth: "300px", borderRadius: "8px" }} />
