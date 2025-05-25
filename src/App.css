@@ -46,3 +46,23 @@ body {
     word-break: break-all;
   }
 }
+
+.cards-container {
+  min-height: 100vh;
+  padding: 0 1rem; /* Adds space on left/right for mobile */
+  box-sizing: border-box;
+}
+
+.about-card-inner img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .about-card-inner img {
+    max-width: 100%;
+  }
+}
