@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px; /* Adjust the gap as needed */
+  gap: 32px;
 }
 
 .card-image-container {

@@ -5,7 +5,7 @@ import cribImg3 from '../assets/crib-spread.png';
 
 function Projects() {
   return (
-    <div className="cards-container" style={{ minHeight: '100vh' }}>
+    <div>
       <AboutCard title="Cribbage Game">
         <p>
           A 2-player digital version of the classic card game Cribbage, built from scratch in Godot. The game supports real-time multiplayer, card drag-and-drop, crib logic, and full round scoring — all with smooth card animations and scene syncing.
