@@ -2,8 +2,10 @@ import AboutCard from "../components/AboutCard";
 import cribImg1 from '../assets/crib-game.png';
 import cribImg2 from '../assets/crib-menu.png';
 import cribImg3 from '../assets/crib-spread.png';
+import { useEffect } from "react";
 
 function Projects() {
+  useEffect(() => {document.title = "Eder's Website | Projects";}, []);
   return (
     <div>
       <AboutCard title="Cribbage Game">

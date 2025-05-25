@@ -1,9 +1,10 @@
 import React, { useRef } from 'react';
 import ederImg from '../assets/eder.png'; // Adjust the path if needed
+import { useEffect } from "react";
 
 function Home() {
   const containerRef = useRef(null);
-
+  useEffect(() => {document.title = "Eder's Website | Home";}, []);
   return (
     <div
       ref={containerRef}

@@ -1,8 +1,10 @@
 import LinksCard from '../components/LinksCard';
 import myImage from '../assets/github.png';
 import myImage2 from '../assets/itch.png';
+import { useEffect } from "react";
 
 function Links() {
+  useEffect(() => {document.title = "Eder's Website | Links";}, []);
   return (
     <div className="cards-container" style={{ minHeight: '100vh' }}>
       <LinksCard

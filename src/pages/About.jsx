@@ -1,8 +1,10 @@
 import AboutCard from "../components/AboutCard";
 import bluegillImg from "../assets/bluegill.jpg";
 import crappieImg from "../assets/crappie.jpg";
+import { useEffect } from "react";
 
 function About() {
+  useEffect(() => {document.title = "Eder's Website | About";}, []);
   return (
     <div>
       <AboutCard title="About Me">
