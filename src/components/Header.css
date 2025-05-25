@@ -45,8 +45,14 @@
   transition: background 0.2s;
 }
 
-.header-tab:hover {
+.header-tab:active {
   background: #444;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .header-tab:hover {
+    background: #444;
+  }
 }
 
 .home-icon-link {
