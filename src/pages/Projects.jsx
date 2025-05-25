@@ -1,4 +1,4 @@
-import Card from '../components/Card';
+import Card from '../components/LinksCard';
 import myImage from '../assets/card.png';
 
 function Projects() {
