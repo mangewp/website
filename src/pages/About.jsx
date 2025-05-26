@@ -18,7 +18,7 @@ function About() {
           <img src={crappieImg} alt="Catfish" style={{ maxWidth: "300px", borderRadius: "8px" }} />
         </div>
       </AboutCard>
-      <div style={{ display: "flex", justifyContent: "center", marginTop: "2rem", padding: "0 1rem" }}>
+      <div style={{ display: "flex", justifyContent: "center", padding: "0 1rem", paddingBottom: "1.5rem" }}>
         <iframe
           allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
           height="450"

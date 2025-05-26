@@ -5,7 +5,7 @@
   width: 220px;
   height: 260px;
   border-radius: 24px;
-  background: #23272f;
+  background: rgba(35, 39, 47, 0.411);
   box-shadow: 0 4px 24px rgba(0,0,0,0.15);
   text-decoration: none;
   overflow: hidden;
@@ -48,7 +48,7 @@
 
 .card-bar {
   width: 100%;
-  background: rgba(20, 20, 30, 0.92);
+  background: rgba(20, 20, 30, 0.397);
   padding: 16px 0;
   display: flex;
   justify-content: center;
